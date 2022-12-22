@@ -1,0 +1,67 @@
+/* Cabeçalho */
+
+header {
+    background-color:#EFE5DC;
+}
+
+.nav-item .nav-link.active {
+    background-color:#FBFEFB;
+    color: black;
+}
+
+.nav-link, .nav-link:hover {
+    color: black;
+}
+
+/* sobre */
+
+.text-colored {
+    color: #D0B8AC;
+}
+
+.section-title {
+    padding-top: 100px;
+    font-family: 'Satisfy', cursive;
+    font-size: 3em;
+}
+
+/* serviços*/
+
+#servicos {
+    background-color: #fffef6;
+}
+
+#servicos button.active {
+    background-color:#D0B8AC;
+}
+
+/* footer */
+
+footer {
+    background-color: #EFE5DC;
+}
+
+.midias-sociais ul {
+    display: flex;
+    justify-content: center;
+}
+
+.midias-sociais li {
+    list-style: none;
+}
+
+.midias-sociais i {
+    color: black;
+}
+
+.midias-sociais i:hover {
+    color: #7a7a7a;
+}
+
+section {
+    padding: 15px 0;
+}
+
+#inicio {
+    padding-top: 15px;
+}
