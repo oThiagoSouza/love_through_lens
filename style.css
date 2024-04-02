@@ -1,7 +1,8 @@
 /* Cabeçalho */
 
 header {
-    background-color:#EFE5DC;
+    background-color: blue;
+    font-weight: bold;
 }
 
 .nav-item .nav-link.active {
@@ -13,15 +14,23 @@ header {
     color: black;
 }
 
+.carousel-inner{
+    max-height: 600px;
+}
+
+.carousel-inner img{
+    width: 840px;
+    height: 960px;
+}
+
 /* sobre */
 
 .text-colored {
-    color: #D0B8AC;
+    color: blue;
 }
 
 .section-title {
     padding-top: 100px;
-    font-family: 'Satisfy', cursive;
     font-size: 3em;
 }
 
@@ -29,6 +38,11 @@ header {
 
 #servicos {
     background-color: #fffef6;
+}
+
+#servicos img{
+    max-height: 400px;
+    height: 100%;
 }
 
 #servicos button.active {
